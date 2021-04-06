@@ -37,8 +37,7 @@ score(){
      else{
        World.remove(world, this.body);
        push();
-       this.Visiblity = this.Visiblity - 5;
-       tint(255,this.Visiblity);
+       this.Visibility = this.Visibility - 5;
        pop();
      }
     }
